@@ -1,0 +1,242 @@
+* {margin:0; padding:0;}
+.slide-pic {
+    clear:both;
+    width:100%;
+    height:400px;
+    position: relative;
+    top:50px;
+    background-color: #EDEDED;
+}
+.slide-pic #myCarousel{
+    position: relative;
+    top:-50px;
+}
+.context {
+    width:100%;
+    height:540px;
+    background-color: #f5f5f5;
+}
+.context .title{
+    height:150px;
+    text-align: center;
+}
+.context .title p{
+    color:#434343;
+    font-size:50px;
+    position: relative;
+    top:50px;
+}
+.context .title span{
+    font-size:30px;
+    color:#9c9c9c;
+    position: relative;
+    top:30px;
+}
+.context .container .row {
+    position: relative;
+    top:50px;
+}
+.context .container .row .col-sm-4 .thumbnail {
+    height:280px;
+}
+.context .container .row .col-sm-4 .thumbnail img{
+    position: relative;
+    top:20px;
+    width:100px;
+    height:100px;
+}
+.context .container .row .col-sm-4 .thumbnail .caption{
+    position: relative;
+    top:40px;
+    text-align:center;
+    padding:20px;
+}
+.person{
+    height:450px;
+}
+.person .title{
+    height:130px;
+    text-align: center;
+}
+.person .title p{
+    color:#434343;
+    font-size:50px;
+    position: relative;
+    top:50px;
+}
+.person .title span{
+    font-size:30px;
+    color:#9c9c9c;
+    position: relative;
+    top:30px;
+}
+.head-portrait {
+    height:200px;
+    width:100%;
+    position: relative;
+    top:70px;
+    border-top:1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+.head-portrait .row .col-sm-3 img{
+    width:150px;
+    height:150px;
+    position: relative;
+    top:20px;
+    left:50px;
+}
+
+.site-about .about-head {
+    width:100%;
+    height:150px;
+    position: relative;
+    top:50px;
+    background-color: #E2E2E2;
+}
+.site-about .intro {
+    width:100%;
+    height:1170px;
+    background-color: #EEEEEE;
+}
+.site-about .intro .container .box1 {
+    height:300px;
+    overflow: auto;
+    margin-top:100px;
+    background-color: #ffffff;
+}
+.site-about .intro .container .box1 img{
+    width:50%;
+    height:300px;
+    float: left;
+}
+.site-about .intro .container .box1 .intro-text{
+    width:50%;
+    height:300px;
+    padding:40px;
+    float: right;
+}
+
+.site-about .intro .container .box2 {
+    height:300px;
+    overflow: auto;
+    margin-top:56px;
+    background-color: #ffffff;
+}
+.site-about .intro .container .box2 img{
+    width:50%;
+    height:300px;
+    float: right;
+}
+.site-about .intro .container .box2 .intro-text{
+    width:50%;
+    height:300px;
+    padding:40px;
+    float: left;
+}
+
+.site-about .intro .container .box3 {
+    height:300px;
+    overflow: auto;
+    margin-top:56px;
+    background-color: #ffffff;
+}
+.site-about .intro .container .box3 img{
+    width:50%;
+    height:300px;
+    float: left;
+}
+.site-about .intro .container .box3 .intro-text{
+    width:50%;
+    height:300px;
+    padding:40px;
+    float: right;
+}
+.show-pic {
+    height:500px;
+}
+.show-pic .title{
+    text-align: center;
+    height:80px;
+    margin: 20px;
+}
+.show-pic table {
+    width:100%;
+}
+.show-pic table tr td{
+    width:25%;
+}
+.show-pic table tr td img {
+    width:100%;
+    height:180px;
+}
+
+/*news layout*/
+.site-post .container .post-content{
+    font-size:18px;
+}
+
+.site-news .header {
+    width:100%;
+    height:150px;
+    position: relative;
+    top:50px;
+    background-color: #E2E2E2;
+}
+.site-news .content {
+    position:relative;
+    top:50px;
+}
+.site-news .content .container .table-title{
+    font-size:25px;
+    color:#003366;
+    border-bottom:1px solid #EFEFEF;
+}
+.site-news .content .container table tr td p a{
+    text-decoration:none;
+    color:#698989;
+}
+.site-news .content .container table tr td p a:hover{
+    color:#00768F;
+}
+
+.mv-title {
+    font-size:25px;
+    color:#003366;
+    border-bottom:1px solid #EFEFEF;
+}
+.notice{
+    height:220px;
+    background: url("../images/notice-bg-1.jpg") no-repeat;
+    background-size: 400px 220px;
+}
+.notice ul{
+    position: relative;
+    top:15px;
+}
+.notice ul li{
+    font-size:20px;
+    list-style: disc;
+    margin-bottom:10px;
+    margin-left:80px;
+}
+/*--site-news-slide--*/
+.news-slide {
+    height:400px;
+    position: relative;
+    top:20px;
+}
+ul,li {list-style:none;}
+img {border:0;}
+
+#focus {width:653px; height:300px; overflow:hidden; position:relative;}
+#focus ul {height:380px; position:absolute;}
+#focus ul li {float:left; width:653px; height:280px; overflow:hidden; position:relative; background:#000;}
+#focus ul li div {position:absolute; overflow:hidden;}
+#focus .btnBg {position:absolute; width:653px; height:20px; left:0; bottom:0; background:#000;}
+#focus .btn {position:absolute; width:780px; height:10px; padding:5px 10px; right:0; bottom:0; text-align:right;}
+#focus .btn span {display:inline-block; _display:inline; _zoom:1; width:25px; height:10px; _font-size:0; margin-left:5px; cursor:pointer; background:#fff; position: relative;top:-11px;}
+#focus .btn span.on {background:#fff;}
+#focus .preNext {width:45px; height:100px; position:absolute; top:90px; cursor:pointer;}
+#focus .pre {left:0;}
+#focus .next {right:0; background-position:right top;}
+/*--end--site-news-slide--*/
