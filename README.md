@@ -1,4 +1,4 @@
-Yii2框架搭建的网站
+基于Yii2框架搭建的网站
 ============================
 - 使用bootstrap首页大图滑动
 - 使用[lightbox](http://lokeshdhakar.com/projects/lightbox2/)来放大about中的图片浏览
