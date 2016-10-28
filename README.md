@@ -7,4 +7,4 @@
 - 使用[Redactor](https://github.com/yiidoc/yii2-redactor)编辑器来发布新闻
 - 数据库在`sql`目录下
 
-后续还需要不断完善功能
+后续 ? 有时间就完善 : 没时间就不care了
